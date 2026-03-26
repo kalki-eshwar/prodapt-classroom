@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "product": "Laptop",
+            "price": 1000,
+            "category": "Electornics"
+        },
+        {
+            "id": 2,
+            "product": "Smartphone",
+            "price": 500,
+            "category": "Electornics"
+        },
+        {
+            "id": 3,
+            "product": "Headphones",
+            "price": 200,
+            "category": "Electornics"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.hint {
+  margin-bottom: 16px;
+}
+
+.crud-form {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr auto auto;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.crud-form input,
+button {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.error {
+  color: #b00020;
+}
+
+@media (max-width: 700px) {
+  .crud-form {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}
